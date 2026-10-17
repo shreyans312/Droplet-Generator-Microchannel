@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111827}.grid{stroke:#d1d5db;stroke-width:1}.minor{stroke:#e5e7eb;stroke-width:1}</style>
+<text x="700.0" y="34" font-size="24" font-weight="600" text-anchor="middle">Figure 6 CFD sweep progress</text>
+<text x="700.0" y="62" font-size="15" text-anchor="middle">Ready 18/18  |  Running 0  |  Queued 0  |  Failed 0</text>
+<text x="700.0" y="86" font-size="13" text-anchor="middle">A point is ready only after its solver reaches the configured final time.</text>
+<line class="grid" x1="235.0" y1="110" x2="235.0" y2="810"/>
+<text x="235.0" y="836" font-size="13" text-anchor="middle">0%</text>
+<line class="minor" x1="330.5" y1="110" x2="330.5" y2="810"/>
+<text x="330.5" y="836" font-size="13" text-anchor="middle">10%</text>
+<line class="grid" x1="426.0" y1="110" x2="426.0" y2="810"/>
+<text x="426.0" y="836" font-size="13" text-anchor="middle">20%</text>
+<line class="minor" x1="521.5" y1="110" x2="521.5" y2="810"/>
+<text x="521.5" y="836" font-size="13" text-anchor="middle">30%</text>
+<line class="grid" x1="617.0" y1="110" x2="617.0" y2="810"/>
+<text x="617.0" y="836" font-size="13" text-anchor="middle">40%</text>
+<line class="minor" x1="712.5" y1="110" x2="712.5" y2="810"/>
+<text x="712.5" y="836" font-size="13" text-anchor="middle">50%</text>
+<line class="grid" x1="808.0" y1="110" x2="808.0" y2="810"/>
+<text x="808.0" y="836" font-size="13" text-anchor="middle">60%</text>
+<line class="minor" x1="903.5" y1="110" x2="903.5" y2="810"/>
+<text x="903.5" y="836" font-size="13" text-anchor="middle">70%</text>
+<line class="grid" x1="999.0" y1="110" x2="999.0" y2="810"/>
+<text x="999.0" y="836" font-size="13" text-anchor="middle">80%</text>
+<line class="minor" x1="1094.5" y1="110" x2="1094.5" y2="810"/>
+<text x="1094.5" y="836" font-size="13" text-anchor="middle">90%</text>
+<line class="grid" x1="1190.0" y1="110" x2="1190.0" y2="810"/>
+<text x="1190.0" y="836" font-size="13" text-anchor="middle">100%</text>
+<text x="221" y="134.4" font-size="13" text-anchor="end">r=0.5, Kp=-0.36630</text>
+<rect x="235" y="120.4" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="120.4" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="134.4" font-size="12">ready: 3.300/3.3 s</text>
+<text x="221" y="173.3" font-size="13" text-anchor="end">r=0.5, Kp=-0.00096</text>
+<rect x="235" y="159.3" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="159.3" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="173.3" font-size="12">ready: 3.300/3.3 s</text>
+<text x="221" y="212.2" font-size="13" text-anchor="end">r=0.5, Kp=+0.03862</text>
+<rect x="235" y="198.2" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="198.2" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="212.2" font-size="12">ready: 3.300/3.3 s</text>
+<text x="221" y="251.1" font-size="13" text-anchor="end">r=0.5, Kp=+0.87365</text>
+<rect x="235" y="237.1" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="237.1" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="251.1" font-size="12">ready: 3.300/3.3 s</text>
+<text x="221" y="290.0" font-size="13" text-anchor="end">r=0.5, Kp=+1.69612</text>
+<rect x="235" y="276.0" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="276.0" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="290.0" font-size="12">ready: 3.300/3.3 s</text>
+<text x="221" y="328.9" font-size="13" text-anchor="end">r=0.5, Kp=+2.51140</text>
+<rect x="235" y="314.9" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="314.9" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="328.9" font-size="12">ready: 3.300/3.3 s</text>
+<text x="221" y="367.8" font-size="13" text-anchor="end">r=1.0, Kp=-0.48145</text>
+<rect x="235" y="353.8" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="353.8" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="367.8" font-size="12">ready: 2.500/2.5 s</text>
+<text x="221" y="406.7" font-size="13" text-anchor="end">r=1.0, Kp=-0.08917</text>
+<rect x="235" y="392.7" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="392.7" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="406.7" font-size="12">ready: 2.500/2.5 s</text>
+<text x="221" y="445.6" font-size="13" text-anchor="end">r=1.0, Kp=-0.00096</text>
+<rect x="235" y="431.6" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="431.6" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="445.6" font-size="12">ready: 2.500/2.5 s</text>
+<text x="221" y="484.4" font-size="13" text-anchor="end">r=1.0, Kp=+0.76215</text>
+<rect x="235" y="470.4" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="470.4" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="484.4" font-size="12">ready: 2.500/2.5 s</text>
+<text x="221" y="523.3" font-size="13" text-anchor="end">r=1.0, Kp=+1.58816</text>
+<rect x="235" y="509.3" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="509.3" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="523.3" font-size="12">ready: 2.500/2.5 s</text>
+<text x="221" y="562.2" font-size="13" text-anchor="end">r=1.0, Kp=+2.40701</text>
+<rect x="235" y="548.2" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="548.2" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="562.2" font-size="12">ready: 2.500/2.5 s</text>
+<text x="221" y="601.1" font-size="13" text-anchor="end">r=1.5, Kp=-0.59848</text>
+<rect x="235" y="587.1" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="587.1" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="601.1" font-size="12">ready: 2.000/2.0 s</text>
+<text x="221" y="640.0" font-size="13" text-anchor="end">r=1.5, Kp=-0.21331</text>
+<rect x="235" y="626.0" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="626.0" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="640.0" font-size="12">ready: 2.000/2.0 s</text>
+<text x="221" y="678.9" font-size="13" text-anchor="end">r=1.5, Kp=-0.00096</text>
+<rect x="235" y="664.9" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="664.9" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="678.9" font-size="12">ready: 2.000/2.0 s</text>
+<text x="221" y="717.8" font-size="13" text-anchor="end">r=1.5, Kp=+0.64334</text>
+<rect x="235" y="703.8" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="703.8" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="717.8" font-size="12">ready: 2.000/2.0 s</text>
+<text x="221" y="756.7" font-size="13" text-anchor="end">r=1.5, Kp=+1.47658</text>
+<rect x="235" y="742.7" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="742.7" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="756.7" font-size="12">ready: 2.000/2.0 s</text>
+<text x="221" y="795.6" font-size="13" text-anchor="end">r=1.5, Kp=+2.29901</text>
+<rect x="235" y="781.6" width="955" height="18" rx="3" fill="#f3f4f6"/>
+<rect x="235" y="781.6" width="955.0" height="18" rx="3" fill="#15803d"/>
+<text x="1200" y="795.6" font-size="12">ready: 2.000/2.0 s</text>
+</svg>

@@ -1,4 +1,0 @@
-#!/bin/sh
-cd "${0%/*}" || exit 1
-
-rm -rf [1-9]* 0.* constant/polyMesh log.blockMesh log.foamRun

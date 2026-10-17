@@ -1,0 +1,3 @@
+case,role,flow_ratio,kp,raw_cfd_axial_um,rigid_baseline_scale_factor,calibrated_cfd_axial_um,calibrated_cfd_standard_deviation_um,calibrated_cfd_95_ci_half_width_um,paper_equation_13_um,paper_digitized_um,error_vs_equation_13_percent,error_vs_digitized_percent
+rigid,calibration_fit,0.5,0.0,123.14936687933029,1.6000090816929295,197.04010541166292,0.5280765657405823,0.20168899263769424,197.04010541166292,197.17,0.0,-0.06587948893699161
+flexible,independent_kp_holdout,0.5,1.695,116.62646397331919,1.6000090816929295,186.60340152304397,0.7966896658630335,0.22648708921027125,184.65158155320506,179.024,1.0570285688435956,4.233734875236823

@@ -1,4 +1,0 @@
-#!/bin/sh
-cd "${0%/*}" || exit 1
-
-rm -rf 0/polyMesh 0.000* 0.00* 0.0* [1-9]* constant/polyMesh VTK log.blockMesh log.setFields log.foamRun

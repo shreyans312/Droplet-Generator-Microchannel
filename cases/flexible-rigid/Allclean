@@ -1,16 +1,12 @@
 #!/bin/bash
-set -e
+set -eu
 cd "${0%/*}"
 
-if [ -z "${WM_PROJECT_DIR:-}" ] && [ -f /opt/openfoam13/etc/bashrc ]; then
-    . /opt/openfoam13/etc/bashrc
-fi
-
-set -u
-
 for case_name in rigid flexible; do
-    foamListTimes -case "$case_name" -rm >/dev/null 2>&1 || true
+    rm -rf "$case_name"/0.[0-9]* "$case_name"/[1-9]*
     rm -rf "$case_name/constant/polyMesh" "$case_name/postProcessing"
+    rm -f "$case_name/0"/alpha.oil_background "$case_name/0"/alpha.oil_liquidCore
+    rm -f "$case_name"/*.foam
+    cp common/alpha.water.initial "$case_name/0/alpha.water"
     rm -f "$case_name"/log.*
 done
-rm -f validation_results.csv

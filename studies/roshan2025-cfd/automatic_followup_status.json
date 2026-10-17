@@ -1,0 +1,55 @@
+{
+  "state": "stopped_for_disk_space",
+  "validation_pass": false,
+  "runs": [
+    {
+      "case": "/home/shreyans/Desktop/microfluidic/Droplet-Generator-Microchannel/studies/roshan2025-cfd/runs-focused/unstretched_robust_auto1_sharpened_compression",
+      "screening_pass": false,
+      "checks": {
+        "completed": true,
+        "enough_droplets": true,
+        "mass_conservation": true,
+        "low_size_cv": false,
+        "block_size_stationarity": false,
+        "block_frequency_stationarity": false,
+        "provisional_axial_size_agreement": true,
+        "frequency_agreement": false
+      },
+      "diameter_um": 82.96373067036225,
+      "frequency_hz": 25.190881277827447,
+      "validation_pass": false,
+      "reason_not_validation": "Independent spatial/temporal convergence and experimental diameter/geometry correspondence remain required."
+    }
+  ],
+  "candidates": [
+    {
+      "benchmark": "fine_sharpened",
+      "surface_force": "sharpened",
+      "advection": "compression",
+      "score": 13.674030293451516,
+      "pressure_error_percent": 11.432389629641015,
+      "maximum_speed_m_s": 0.0011387552367523313,
+      "static_verification_pass": false
+    },
+    {
+      "benchmark": "fine_mplic_smoothed",
+      "surface_force": "smoothed",
+      "advection": "mplic",
+      "score": 14.497367306371618,
+      "pressure_error_percent": 12.019769590075258,
+      "maximum_speed_m_s": 0.0012093413388356566,
+      "static_verification_pass": false
+    }
+  ],
+  "active_candidate": {
+    "benchmark": "fine_sharpened",
+    "surface_force": "sharpened",
+    "advection": "compression",
+    "score": 13.674030293451516,
+    "pressure_error_percent": 11.432389629641015,
+    "maximum_speed_m_s": 0.0011387552367523313,
+    "static_verification_pass": false
+  },
+  "active_case": "/home/shreyans/Desktop/microfluidic/Droplet-Generator-Microchannel/studies/roshan2025-cfd/runs-focused/unstretched_robust_auto1_sharpened_compression",
+  "reason": "Preserving original results; need at least 2.5 GB free for another candidate."
+}

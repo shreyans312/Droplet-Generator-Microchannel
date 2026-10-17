@@ -2,10 +2,10 @@ solver          incompressibleVoF;
 startFrom       startTime;
 startTime       0;
 stopAt          endTime;
-endTime         0.12;
+endTime         0.36;
 deltaT          1e-6;
 writeControl    adjustableRunTime;
-writeInterval   0.002;
+writeInterval   0.005;
 purgeWrite      0;
 writeFormat     ascii;
 writeCompression off;
@@ -29,21 +29,5 @@ functions
         writeFields     false;
         writeControl    timeStep;
         writeInterval   20;
-    }
-    dropletSizes
-    {
-        type            regionSizeDistribution;
-        libs            ("libfieldFunctionObjects.so");
-        alpha           alpha.water;
-        patches         (waterInlet);
-        threshold       0.5;
-        fields          (U);
-        nBins           80;
-        // Required by OpenFOAM 13 for small satellite regions.
-        minDiameter     0;
-        maxDiameter     5e-4;
-        setFormat       raw;
-        writeControl    adjustableRunTime;
-        writeInterval   0.01;
     }
 }

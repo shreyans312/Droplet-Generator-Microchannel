@@ -1,26 +1,45 @@
 #!/bin/bash
-set -e
-
 cd "${0%/*}"
 
 if [ -z "${WM_PROJECT_DIR:-}" ]; then
     if [ -f /opt/openfoam13/etc/bashrc ]; then
+        case_args=("$@")
+        set --
         . /opt/openfoam13/etc/bashrc
+        set -- "${case_args[@]}"
+        unset case_args
     else
         echo "OpenFOAM environment is not loaded" >&2
         exit 1
     fi
 fi
 
-set -u
+set -eu
 
 mesh_only=false
-if [ "${1:-}" = "--mesh-only" ]; then
-    mesh_only=true
-fi
+parallel=false
+mesh_level=screening
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+        --mesh-only) mesh_only=true ;;
+        --parallel) parallel=true ;;
+        --mesh)
+            shift
+            mesh_level="${1:-}"
+            case "$mesh_level" in screening|medium|fine) ;; *) echo "Invalid mesh level" >&2; exit 2 ;; esac
+            ;;
+        *) echo "Unknown option: $1" >&2; exit 2 ;;
+    esac
+    shift
+done
 
-for case_name in rigid flexible; do
+case_names=(rigid flexible)
+./Allclean
+python3 mesh_generator.py --mesh "$mesh_level"
+
+for case_name in "${case_names[@]}"; do
     echo "Preparing $case_name case"
+    cp common/alpha.water.initial "$case_name/0/alpha.water"
     blockMesh -case "$case_name" > "$case_name/log.blockMesh" 2>&1
     checkMesh -case "$case_name" > "$case_name/log.checkMesh" 2>&1
     if ! grep -q "Mesh OK" "$case_name/log.checkMesh"; then
@@ -28,13 +47,38 @@ for case_name in rigid flexible; do
         exit 1
     fi
     setFields -case "$case_name" > "$case_name/log.setFields" 2>&1
-
-    if [ "$mesh_only" = false ]; then
-        echo "Running $case_name case"
-        foamRun -case "$case_name" -solver incompressibleVoF > "$case_name/log.foamRun" 2>&1
-    fi
 done
 
 if [ "$mesh_only" = false ]; then
+    if [ "$parallel" = true ]; then
+        run_pids=()
+        for case_name in "${case_names[@]}"; do
+            echo "Running $case_name case"
+            foamRun -case "$case_name" -solver incompressibleVoF > "$case_name/log.foamRun" 2>&1 &
+            run_pids+=("$!")
+        done
+        run_failed=false
+        for index in "${!run_pids[@]}"; do
+            if ! wait "${run_pids[$index]}"; then
+                echo "${case_names[$index]} solver failed" >&2
+                run_failed=true
+            fi
+        done
+        if [ "$run_failed" = true ]; then
+            exit 1
+        fi
+    else
+        for case_name in "${case_names[@]}"; do
+            echo "Running $case_name case"
+            foamRun -case "$case_name" -solver incompressibleVoF > "$case_name/log.foamRun" 2>&1
+        done
+    fi
+
+    /usr/bin/python3 -c "import vtk, numpy" 2>/dev/null || {
+        echo "System Python VTK and NumPy packages are required for silhouette measurement" >&2
+        exit 1
+    }
+    /usr/bin/python3 measure.py --self-test
+    /usr/bin/python3 measure.py
     python3 validate.py
 fi

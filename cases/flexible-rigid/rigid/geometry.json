@@ -1,0 +1,14 @@
+{
+  "kp": 0.0,
+  "mesh_level": "screening",
+  "estimated_cells": 2816,
+  "junction_width_m": 9.999999999999999e-05,
+  "undeformed_height_m": 9.999999999999999e-05,
+  "region_b_width_m": 0.00019999999999999998,
+  "region_b_start_m": 0.0006,
+  "measurement_line_m": 0.0012,
+  "average_junction_deflection_m": 0.0,
+  "maximum_junction_deflection_m": 0.0,
+  "wall_model": "static analytical parabolic profile; not two-way FSI",
+  "region_b_source": "width inferred from Figure 6 image scale; axial lengths assumed"
+}

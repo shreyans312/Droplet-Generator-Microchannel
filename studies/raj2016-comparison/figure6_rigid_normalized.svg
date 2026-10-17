@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111827}.grid{stroke:#d1d5db}.axis{stroke:#111827;stroke-width:2}</style>
+<text x="490" y="28" font-size="21" text-anchor="middle">Flexible response normalized by each series rigid baseline</text>
+<text x="490" y="52" font-size="13" text-anchor="middle">Tests relative size reduction without calibrating CFD magnitude</text>
+<line class="grid" x1="85" y1="490.0" x2="950" y2="490.0"/>
+<text x="75" y="495.0" font-size="13" text-anchor="end">0.88</text>
+<line class="grid" x1="85" y1="420.8" x2="950" y2="420.8"/>
+<text x="75" y="425.8" font-size="13" text-anchor="end">0.90</text>
+<line class="grid" x1="85" y1="351.7" x2="950" y2="351.7"/>
+<text x="75" y="356.7" font-size="13" text-anchor="end">0.92</text>
+<line class="grid" x1="85" y1="282.5" x2="950" y2="282.5"/>
+<text x="75" y="287.5" font-size="13" text-anchor="end">0.94</text>
+<line class="grid" x1="85" y1="213.3" x2="950" y2="213.3"/>
+<text x="75" y="218.3" font-size="13" text-anchor="end">0.96</text>
+<line class="grid" x1="85" y1="144.2" x2="950" y2="144.2"/>
+<text x="75" y="149.2" font-size="13" text-anchor="end">0.98</text>
+<line class="grid" x1="85" y1="75.0" x2="950" y2="75.0"/>
+<text x="75" y="80.0" font-size="13" text-anchor="end">1.00</text>
+<line class="axis" x1="85" y1="490" x2="950" y2="490"/>
+<line class="axis" x1="85" y1="75" x2="85" y2="490"/>
+<text x="24" y="282.5" font-size="16" text-anchor="middle" transform="rotate(-90 24 282.5)">Flexible / rigid diameter</text>
+<rect x="126.1" y="393.3" width="62" height="96.7" fill="#111827" opacity="0.88"/>
+<text x="157.1" y="384.3" font-size="13" text-anchor="middle">0.908</text>
+<text x="157.1" y="515" font-size="12" text-anchor="middle">Paper data</text>
+<text x="157.1" y="535" font-size="11" text-anchor="middle">9.2% reduction</text>
+<rect x="270.2" y="292.4" width="62" height="197.6" fill="#059669" opacity="0.88"/>
+<text x="301.2" y="283.4" font-size="13" text-anchor="middle">0.937</text>
+<text x="301.2" y="515" font-size="12" text-anchor="middle">Paper Eq. 13</text>
+<text x="301.2" y="535" font-size="11" text-anchor="middle">6.3% reduction</text>
+<rect x="414.4" y="258.2" width="62" height="231.8" fill="#dc2626" opacity="0.88"/>
+<text x="445.4" y="249.2" font-size="13" text-anchor="middle">0.947</text>
+<text x="445.4" y="515" font-size="12" text-anchor="middle">CFD axial</text>
+<text x="445.4" y="535" font-size="11" text-anchor="middle">5.3% reduction</text>
+<rect x="558.6" y="188.4" width="62" height="301.6" fill="#2563eb" opacity="0.88"/>
+<text x="589.6" y="179.4" font-size="13" text-anchor="middle">0.967</text>
+<text x="589.6" y="515" font-size="12" text-anchor="middle">CFD transverse</text>
+<text x="589.6" y="535" font-size="11" text-anchor="middle">3.3% reduction</text>
+<rect x="702.8" y="241.1" width="62" height="248.9" fill="#7c3aed" opacity="0.88"/>
+<text x="733.8" y="232.1" font-size="13" text-anchor="middle">0.952</text>
+<text x="733.8" y="515" font-size="12" text-anchor="middle">CFD max Feret</text>
+<text x="733.8" y="535" font-size="11" text-anchor="middle">4.8% reduction</text>
+<rect x="846.9" y="239.1" width="62" height="250.9" fill="#d97706" opacity="0.88"/>
+<text x="877.9" y="230.1" font-size="13" text-anchor="middle">0.953</text>
+<text x="877.9" y="515" font-size="12" text-anchor="middle">CFD area equiv.</text>
+<text x="877.9" y="535" font-size="11" text-anchor="middle">4.7% reduction</text>
+<text x="490" y="585" font-size="12" text-anchor="middle">Normalization removes absolute scale and therefore cannot establish absolute-diameter validation.</text>
+</svg>

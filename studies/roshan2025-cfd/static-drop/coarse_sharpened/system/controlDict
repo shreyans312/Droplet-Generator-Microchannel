@@ -1,0 +1,9 @@
+FoamFile { format ascii; class dictionary; object controlDict; }
+solver incompressibleVoFCurvature;
+startFrom startTime; startTime 0; stopAt endTime; endTime .003;
+deltaT 1e-6; adjustTimeStep yes; maxCo .2; maxAlphaCo .1; maxDeltaT 2.8e-06;
+writeControl adjustableRunTime; writeInterval .00025; purgeWrite 0;
+writeFormat binary; writeCompression off; timePrecision 10; runTimeModifiable true;
+functions {}
+libs ("/home/shreyans/Desktop/microfluidic/Droplet-Generator-Microchannel/studies/roshan2025-cfd/lib/libcurvatureSmooth.so");
+surfaceTensionSharpening 0.5;

@@ -1,0 +1,21 @@
+{
+  "purpose": "time-step convergence; not experimental validation",
+  "mesh_level": "medium",
+  "end_time_s": 3.0,
+  "write_interval_s": 0.005,
+  "initial_delta_t_s": 1e-06,
+  "adaptive_controls": {
+    "maxCo": 0.25,
+    "maxAlphaCo": 0.15
+  },
+  "variants": {
+    "coarse_40us": 4e-05,
+    "baseline_20us": 2e-05,
+    "fine_10us": 1e-05
+  },
+  "notes": [
+    "Only maxDeltaT changes between temporal variants.",
+    "Binary compressed output changes storage only, not solver arithmetic.",
+    "Actual accepted time steps must be read from solver logs."
+  ]
+}

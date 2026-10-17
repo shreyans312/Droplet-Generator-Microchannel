@@ -1,0 +1,3 @@
+curvatureSmooth.C
+
+LIB = $(CURVATURE_LIB_DIR)/libcurvatureSmooth

@@ -1,0 +1,7 @@
+mesh,case,cells,max_non_orthogonality,average_non_orthogonality,max_skewness,status
+screening,rigid,2816,0,0,6.93889e-14,Mesh OK
+screening,flexible,2816,17.2969,1.54481,0.356644,Mesh OK
+medium,rigid,22528,0,0,1.73472e-13,Mesh OK
+medium,flexible,22528,21.3057,1.74218,0.386523,Mesh OK
+fine,rigid,76032,0,0,2.59803e-13,Mesh OK
+fine,flexible,76032,21.7479,1.79857,0.396563,Mesh OK

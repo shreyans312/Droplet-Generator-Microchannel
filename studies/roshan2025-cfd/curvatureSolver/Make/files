@@ -1,0 +1,3 @@
+incompressibleVoFCurvature.C
+
+LIB = $(CURVATURE_LIB_DIR)/libincompressibleVoFCurvature

@@ -1,0 +1,9 @@
+{
+  "radius_m": 4e-05,
+  "sigma_n_m": 0.00345,
+  "laplace_pressure_pa": 172.49999999999997,
+  "edge_m": 4.000000000000001e-06,
+  "max_delta_t_s": 9.9e-07,
+  "curvature": "smoothed_2_passes_weight_0.5",
+  "force_colour_sharpening": 0.5
+}

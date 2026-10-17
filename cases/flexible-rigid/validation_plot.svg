@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111827}.grid{stroke:#d1d5db}.axis{stroke:#111827;stroke-width:2}</style>
+<text x="380" y="30" font-size="21" text-anchor="middle">Image-matched region-B diameter</text>
+<line class="grid" x1="90" y1="425.0" x2="730" y2="425.0"/>
+<text x="78" y="430.0" font-size="14" text-anchor="end">0</text>
+<line class="grid" x1="90" y1="394.2" x2="730" y2="394.2"/>
+<text x="78" y="399.2" font-size="14" text-anchor="end">20</text>
+<line class="grid" x1="90" y1="363.3" x2="730" y2="363.3"/>
+<text x="78" y="368.3" font-size="14" text-anchor="end">40</text>
+<line class="grid" x1="90" y1="332.5" x2="730" y2="332.5"/>
+<text x="78" y="337.5" font-size="14" text-anchor="end">60</text>
+<line class="grid" x1="90" y1="301.7" x2="730" y2="301.7"/>
+<text x="78" y="306.7" font-size="14" text-anchor="end">80</text>
+<line class="grid" x1="90" y1="270.8" x2="730" y2="270.8"/>
+<text x="78" y="275.8" font-size="14" text-anchor="end">100</text>
+<line class="grid" x1="90" y1="240.0" x2="730" y2="240.0"/>
+<text x="78" y="245.0" font-size="14" text-anchor="end">120</text>
+<line class="grid" x1="90" y1="209.2" x2="730" y2="209.2"/>
+<text x="78" y="214.2" font-size="14" text-anchor="end">140</text>
+<line class="grid" x1="90" y1="178.3" x2="730" y2="178.3"/>
+<text x="78" y="183.3" font-size="14" text-anchor="end">160</text>
+<line class="grid" x1="90" y1="147.5" x2="730" y2="147.5"/>
+<text x="78" y="152.5" font-size="14" text-anchor="end">180</text>
+<line class="grid" x1="90" y1="116.7" x2="730" y2="116.7"/>
+<text x="78" y="121.7" font-size="14" text-anchor="end">200</text>
+<line class="grid" x1="90" y1="85.8" x2="730" y2="85.8"/>
+<text x="78" y="90.8" font-size="14" text-anchor="end">220</text>
+<line class="grid" x1="90" y1="55.0" x2="730" y2="55.0"/>
+<text x="78" y="60.0" font-size="14" text-anchor="end">240</text>
+<line class="axis" x1="90" y1="425" x2="730" y2="425"/>
+<line class="axis" x1="90" y1="55" x2="90" y2="425"/>
+<text x="24" y="240.0" font-size="17" text-anchor="middle" transform="rotate(-90 24 240.0)">Diameter (um)</text>
+<circle cx="270" cy="121.2" r="7" fill="#2563eb"/>
+<text x="270" y="453" font-size="16" text-anchor="middle">rigid</text>
+<path d="M 262 222.0 L 278 238.0 M 262 238.0 L 278 222.0" stroke="#dc2626" stroke-width="4"/>
+<rect x="264" y="229.1" width="12" height="12" fill="#d97706"/>
+<circle cx="550" cy="140.3" r="7" fill="#2563eb"/>
+<text x="550" y="453" font-size="16" text-anchor="middle">flexible</text>
+<path d="M 542 172.6 L 558 188.6 M 542 188.6 L 558 172.6" stroke="#dc2626" stroke-width="4"/>
+<rect x="544" y="170.8" width="12" height="12" fill="#d97706"/>
+<circle cx="155" cy="468" r="6" fill="#2563eb"/>
+<text x="167" y="473" font-size="14">paper</text>
+<path d="M 270 462 L 282 474 M 270 474 L 282 462" stroke="#dc2626" stroke-width="3"/>
+<text x="289" y="473" font-size="14">axial</text>
+<rect x="390" y="462" width="12" height="12" fill="#d97706"/>
+<text x="409" y="473" font-size="14">area-equivalent</text>
+</svg>

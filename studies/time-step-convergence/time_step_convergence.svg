@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="760" viewBox="0 0 1140 760">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111827}.grid{stroke:#d1d5db}.axis{stroke:#111827;stroke-width:2}</style>
+<text x="570" y="28" font-size="21" text-anchor="middle">Time-step sensitivity on the fixed medium mesh</text>
+<text x="295.0" y="60" font-size="18" text-anchor="middle">Rigid</text>
+<line class="grid" x1="80" y1="330.0" x2="510" y2="330.0"/>
+<text x="72" y="334.0" font-size="11" text-anchor="end">90</text>
+<line class="grid" x1="80" y1="297.1" x2="510" y2="297.1"/>
+<text x="72" y="301.1" font-size="11" text-anchor="end">100</text>
+<line class="grid" x1="80" y1="264.3" x2="510" y2="264.3"/>
+<text x="72" y="268.3" font-size="11" text-anchor="end">110</text>
+<line class="grid" x1="80" y1="231.4" x2="510" y2="231.4"/>
+<text x="72" y="235.4" font-size="11" text-anchor="end">120</text>
+<line class="grid" x1="80" y1="198.6" x2="510" y2="198.6"/>
+<text x="72" y="202.6" font-size="11" text-anchor="end">130</text>
+<line class="grid" x1="80" y1="165.7" x2="510" y2="165.7"/>
+<text x="72" y="169.7" font-size="11" text-anchor="end">140</text>
+<line class="grid" x1="80" y1="132.9" x2="510" y2="132.9"/>
+<text x="72" y="136.9" font-size="11" text-anchor="end">150</text>
+<line class="grid" x1="80" y1="100.0" x2="510" y2="100.0"/>
+<text x="72" y="104.0" font-size="11" text-anchor="end">160</text>
+<line class="axis" x1="80" y1="330" x2="510" y2="330"/>
+<line class="axis" x1="80" y1="100" x2="80" y2="330"/>
+<line x1="324.4" y1="207.5" x2="324.4" y2="206.4" stroke="#dc2626"/>
+<circle cx="324.4" cy="207.0" r="4" fill="#dc2626"/>
+<line x1="375.7" y1="220.6" x2="375.7" y2="219.5" stroke="#dc2626"/>
+<circle cx="375.7" cy="220.0" r="4" fill="#dc2626"/>
+<line x1="510.0" y1="221.5" x2="510.0" y2="220.7" stroke="#dc2626"/>
+<circle cx="510.0" cy="221.1" r="4" fill="#dc2626"/>
+<polyline points="324.4,207.0 375.7,220.0 510.0,221.1" fill="none" stroke="#dc2626" stroke-width="2"/>
+<line x1="324.4" y1="211.6" x2="324.4" y2="210.7" stroke="#2563eb"/>
+<circle cx="324.4" cy="211.1" r="4" fill="#2563eb"/>
+<line x1="375.7" y1="223.5" x2="375.7" y2="220.0" stroke="#2563eb"/>
+<circle cx="375.7" cy="221.7" r="4" fill="#2563eb"/>
+<line x1="510.0" y1="225.0" x2="510.0" y2="224.5" stroke="#2563eb"/>
+<circle cx="510.0" cy="224.7" r="4" fill="#2563eb"/>
+<polyline points="324.4,211.1 375.7,221.7 510.0,224.7" fill="none" stroke="#2563eb" stroke-width="2"/>
+<line x1="324.4" y1="201.8" x2="324.4" y2="200.9" stroke="#7c3aed"/>
+<circle cx="324.4" cy="201.3" r="4" fill="#7c3aed"/>
+<line x1="375.7" y1="214.4" x2="375.7" y2="213.3" stroke="#7c3aed"/>
+<circle cx="375.7" cy="213.8" r="4" fill="#7c3aed"/>
+<line x1="510.0" y1="215.2" x2="510.0" y2="214.5" stroke="#7c3aed"/>
+<circle cx="510.0" cy="214.8" r="4" fill="#7c3aed"/>
+<polyline points="324.4,201.3 375.7,213.8 510.0,214.8" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<line x1="324.4" y1="205.8" x2="324.4" y2="205.0" stroke="#d97706"/>
+<circle cx="324.4" cy="205.4" r="4" fill="#d97706"/>
+<line x1="375.7" y1="218.4" x2="375.7" y2="217.3" stroke="#d97706"/>
+<circle cx="375.7" cy="217.9" r="4" fill="#d97706"/>
+<line x1="510.0" y1="219.1" x2="510.0" y2="218.5" stroke="#d97706"/>
+<circle cx="510.0" cy="218.8" r="4" fill="#d97706"/>
+<polyline points="324.4,205.4 375.7,217.9 510.0,218.8" fill="none" stroke="#d97706" stroke-width="2"/>
+<line class="grid" x1="80" y1="660.0" x2="510" y2="660.0"/>
+<text x="72" y="664.0" font-size="11" text-anchor="end">0.035</text>
+<line class="grid" x1="80" y1="597.1" x2="510" y2="597.1"/>
+<text x="72" y="601.1" font-size="11" text-anchor="end">0.045</text>
+<line class="grid" x1="80" y1="534.3" x2="510" y2="534.3"/>
+<text x="72" y="538.3" font-size="11" text-anchor="end">0.055</text>
+<line class="grid" x1="80" y1="471.4" x2="510" y2="471.4"/>
+<text x="72" y="475.4" font-size="11" text-anchor="end">0.065</text>
+<line class="grid" x1="80" y1="440.0" x2="510" y2="440.0"/>
+<text x="72" y="444.0" font-size="11" text-anchor="end">0.070</text>
+<line class="axis" x1="80" y1="660" x2="510" y2="660"/>
+<line class="axis" x1="80" y1="440" x2="80" y2="660"/>
+<line x1="324.4" y1="548.2" x2="324.4" y2="544.8" stroke="#059669"/>
+<circle cx="324.4" cy="546.5" r="4" fill="#059669"/>
+<line x1="375.7" y1="567.1" x2="375.7" y2="565.6" stroke="#059669"/>
+<circle cx="375.7" cy="566.3" r="4" fill="#059669"/>
+<line x1="510.0" y1="569.2" x2="510.0" y2="566.9" stroke="#059669"/>
+<circle cx="510.0" cy="568.1" r="4" fill="#059669"/>
+<polyline points="324.4,546.5 375.7,566.3 510.0,568.1" fill="none" stroke="#059669" stroke-width="2"/>
+<text x="80.0" y="682" font-size="11" text-anchor="middle">40</text>
+<text x="366.7" y="682" font-size="11" text-anchor="middle">20</text>
+<text x="510.0" y="682" font-size="11" text-anchor="middle">10</text>
+<text x="295.0" y="705" font-size="13" text-anchor="middle">Actual mean accepted time step (us)</text>
+<text x="815.0" y="60" font-size="18" text-anchor="middle">Flexible</text>
+<line class="grid" x1="600" y1="330.0" x2="1030" y2="330.0"/>
+<text x="592" y="334.0" font-size="11" text-anchor="end">90</text>
+<line class="grid" x1="600" y1="297.1" x2="1030" y2="297.1"/>
+<text x="592" y="301.1" font-size="11" text-anchor="end">100</text>
+<line class="grid" x1="600" y1="264.3" x2="1030" y2="264.3"/>
+<text x="592" y="268.3" font-size="11" text-anchor="end">110</text>
+<line class="grid" x1="600" y1="231.4" x2="1030" y2="231.4"/>
+<text x="592" y="235.4" font-size="11" text-anchor="end">120</text>
+<line class="grid" x1="600" y1="198.6" x2="1030" y2="198.6"/>
+<text x="592" y="202.6" font-size="11" text-anchor="end">130</text>
+<line class="grid" x1="600" y1="165.7" x2="1030" y2="165.7"/>
+<text x="592" y="169.7" font-size="11" text-anchor="end">140</text>
+<line class="grid" x1="600" y1="132.9" x2="1030" y2="132.9"/>
+<text x="592" y="136.9" font-size="11" text-anchor="end">150</text>
+<line class="grid" x1="600" y1="100.0" x2="1030" y2="100.0"/>
+<text x="592" y="104.0" font-size="11" text-anchor="end">160</text>
+<line class="axis" x1="600" y1="330" x2="1030" y2="330"/>
+<line class="axis" x1="600" y1="100" x2="600" y2="330"/>
+<line x1="879.8" y1="234.7" x2="879.8" y2="231.4" stroke="#dc2626"/>
+<circle cx="879.8" cy="233.1" r="4" fill="#dc2626"/>
+<line x1="894.9" y1="242.3" x2="894.9" y2="240.5" stroke="#dc2626"/>
+<circle cx="894.9" cy="241.4" r="4" fill="#dc2626"/>
+<line x1="1030.0" y1="243.0" x2="1030.0" y2="242.0" stroke="#dc2626"/>
+<circle cx="1030.0" cy="242.5" r="4" fill="#dc2626"/>
+<polyline points="879.8,233.1 894.9,241.4 1030.0,242.5" fill="none" stroke="#dc2626" stroke-width="2"/>
+<line x1="879.8" y1="231.6" x2="879.8" y2="228.9" stroke="#2563eb"/>
+<circle cx="879.8" cy="230.3" r="4" fill="#2563eb"/>
+<line x1="894.9" y1="238.1" x2="894.9" y2="237.4" stroke="#2563eb"/>
+<circle cx="894.9" cy="237.7" r="4" fill="#2563eb"/>
+<line x1="1030.0" y1="238.1" x2="1030.0" y2="237.6" stroke="#2563eb"/>
+<circle cx="1030.0" cy="237.9" r="4" fill="#2563eb"/>
+<polyline points="879.8,230.3 894.9,237.7 1030.0,237.9" fill="none" stroke="#2563eb" stroke-width="2"/>
+<line x1="879.8" y1="226.9" x2="879.8" y2="224.0" stroke="#7c3aed"/>
+<circle cx="879.8" cy="225.5" r="4" fill="#7c3aed"/>
+<line x1="894.9" y1="234.0" x2="894.9" y2="232.5" stroke="#7c3aed"/>
+<circle cx="894.9" cy="233.3" r="4" fill="#7c3aed"/>
+<line x1="1030.0" y1="235.0" x2="1030.0" y2="234.2" stroke="#7c3aed"/>
+<circle cx="1030.0" cy="234.6" r="4" fill="#7c3aed"/>
+<polyline points="879.8,225.5 894.9,233.3 1030.0,234.6" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<line x1="879.8" y1="230.8" x2="879.8" y2="227.8" stroke="#d97706"/>
+<circle cx="879.8" cy="229.3" r="4" fill="#d97706"/>
+<line x1="894.9" y1="237.9" x2="894.9" y2="236.0" stroke="#d97706"/>
+<circle cx="894.9" cy="236.9" r="4" fill="#d97706"/>
+<line x1="1030.0" y1="238.5" x2="1030.0" y2="237.7" stroke="#d97706"/>
+<circle cx="1030.0" cy="238.1" r="4" fill="#d97706"/>
+<polyline points="879.8,229.3 894.9,236.9 1030.0,238.1" fill="none" stroke="#d97706" stroke-width="2"/>
+<line class="grid" x1="600" y1="660.0" x2="1030" y2="660.0"/>
+<text x="592" y="664.0" font-size="11" text-anchor="end">0.035</text>
+<line class="grid" x1="600" y1="597.1" x2="1030" y2="597.1"/>
+<text x="592" y="601.1" font-size="11" text-anchor="end">0.045</text>
+<line class="grid" x1="600" y1="534.3" x2="1030" y2="534.3"/>
+<text x="592" y="538.3" font-size="11" text-anchor="end">0.055</text>
+<line class="grid" x1="600" y1="471.4" x2="1030" y2="471.4"/>
+<text x="592" y="475.4" font-size="11" text-anchor="end">0.065</text>
+<line class="grid" x1="600" y1="440.0" x2="1030" y2="440.0"/>
+<text x="592" y="444.0" font-size="11" text-anchor="end">0.070</text>
+<line class="axis" x1="600" y1="660" x2="1030" y2="660"/>
+<line class="axis" x1="600" y1="440" x2="600" y2="660"/>
+<line x1="879.8" y1="588.9" x2="879.8" y2="583.1" stroke="#059669"/>
+<circle cx="879.8" cy="586.0" r="4" fill="#059669"/>
+<line x1="894.9" y1="599.1" x2="894.9" y2="598.3" stroke="#059669"/>
+<circle cx="894.9" cy="598.7" r="4" fill="#059669"/>
+<line x1="1030.0" y1="602.4" x2="1030.0" y2="599.0" stroke="#059669"/>
+<circle cx="1030.0" cy="600.7" r="4" fill="#059669"/>
+<polyline points="879.8,586.0 894.9,598.7 1030.0,600.7" fill="none" stroke="#059669" stroke-width="2"/>
+<text x="600.0" y="682" font-size="11" text-anchor="middle">40</text>
+<text x="886.7" y="682" font-size="11" text-anchor="middle">20</text>
+<text x="1030.0" y="682" font-size="11" text-anchor="middle">10</text>
+<text x="815.0" y="705" font-size="13" text-anchor="middle">Actual mean accepted time step (us)</text>
+<text x="20" y="215" font-size="14" text-anchor="middle" transform="rotate(-90 20 215)">Diameter (um)</text>
+<text x="20" y="550" font-size="14" text-anchor="middle" transform="rotate(-90 20 550)">Period (s)</text>
+<line x1="245" y1="735" x2="269" y2="735" stroke="#dc2626" stroke-width="3"/>
+<text x="275" y="740" font-size="12">axial</text>
+<line x1="395" y1="735" x2="419" y2="735" stroke="#2563eb" stroke-width="3"/>
+<text x="425" y="740" font-size="12">transverse</text>
+<line x1="545" y1="735" x2="569" y2="735" stroke="#7c3aed" stroke-width="3"/>
+<text x="575" y="740" font-size="12">max Feret</text>
+<line x1="695" y1="735" x2="719" y2="735" stroke="#d97706" stroke-width="3"/>
+<text x="725" y="740" font-size="12">area-equivalent</text>
+<line x1="845" y1="735" x2="869" y2="735" stroke="#059669" stroke-width="3"/>
+<text x="875" y="740" font-size="12">period</text>
+</svg>

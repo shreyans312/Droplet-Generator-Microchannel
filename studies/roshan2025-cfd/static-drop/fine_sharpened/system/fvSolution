@@ -1,0 +1,61 @@
+FoamFile { format ascii; class dictionary; object fvSolution; }
+solvers
+{
+    "alpha.water.*"
+    {
+        nCorrectors     2;
+        nSubCycles      2;
+        MULESCorr       yes;
+        MULES
+        {
+            nIter       5;
+            tolerance   1e-2;
+        }
+        solver          smoothSolver;
+        smoother        symGaussSeidel;
+        tolerance       1e-9;
+        relTol          0;
+    }
+    "pcorr.*"
+    {
+        solver          PCG;
+        preconditioner  DIC;
+        tolerance       1e-5;
+        relTol          0;
+    }
+    p_rgh
+    {
+        solver          GAMG;
+        tolerance       1e-8;
+        relTol          0.01;
+        smoother        GaussSeidel;
+    }
+    p_rghFinal
+    {
+        $p_rgh;
+        relTol          0;
+    }
+    U
+    {
+        solver          PBiCGStab;
+        preconditioner  DILU;
+        tolerance       1e-8;
+        relTol          0.05;
+    }
+    UFinal
+    {
+        $U;
+        relTol          0;
+    }
+    Phi { solver PCG; preconditioner DIC; tolerance 1e-8; relTol 0; }
+}
+PIMPLE
+{
+    momentumPredictor yes;
+    pRefCell 0; pRefValue 0;
+    nOuterCorrectors  3;
+    nCorrectors       3;
+    nNonOrthogonalCorrectors 0;
+}
+
+potentialFlow { nNonOrthogonalCorrectors 0; }

@@ -1,0 +1,7 @@
+case,mesh_level,nominal_xy_cell_um,min_vertical_cell_um,max_vertical_cell_um,cells_across_junction_width,cells_across_undeformed_depth,cell_count,max_aspect_ratio,min_cell_volume_m3,max_cell_volume_m3,max_non_orthogonality_deg,mean_non_orthogonality_deg,max_skewness,mesh_check
+rigid,screening,25.0,25.0,25.0,4.0,4,2816,1.0,1.5625e-14,1.5625e-14,0.0,0.0,6.93889e-14,pass
+flexible,screening,25.0,21.526758921675,25.0,4.0,4,2816,1.38118,1.37328e-14,1.5625e-14,17.2969,1.54481,0.356644,pass
+rigid,medium,12.5,12.5,12.5,8.0,8,22528,1.0,1.95312e-15,1.95313e-15,0.0,0.0,1.73472e-13,pass
+flexible,medium,12.5,10.7633794608375,12.5,8.0,8,22528,1.41956,1.69922e-15,1.95313e-15,21.3057,1.74218,0.386523,pass
+rigid,fine,8.333333,8.333333333333334,8.333333333333334,12.00000048000002,12,76032,1.0,5.78704e-16,5.78704e-16,0.0,0.0,2.59803e-13,pass
+flexible,fine,8.333333,7.175586307225,8.333333333333334,12.00000048000002,12,76032,1.43283,5.01752e-16,5.78704e-16,21.7479,1.79857,0.396563,pass

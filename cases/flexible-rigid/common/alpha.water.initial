@@ -1,0 +1,40 @@
+FoamFile
+{
+    format ascii;
+    class volScalarField;
+    object alpha.water;
+}
+dimensions      [];
+internalField   uniform 0;
+boundaryField
+{
+    oilInlet { type fixedValue; value uniform 0; }
+    waterInlet { type fixedValue; value uniform 1; }
+    outlet
+    {
+        type inletOutlet;
+        inletValue uniform 0;
+        value uniform 0;
+    }
+    walls
+    {
+        type contactAngle;
+        theta0 147;
+        limit gradient;
+        value uniform 0;
+    }
+    bottom
+    {
+        type contactAngle;
+        theta0 147;
+        limit gradient;
+        value uniform 0;
+    }
+    membrane
+    {
+        type contactAngle;
+        theta0 147;
+        limit gradient;
+        value uniform 0;
+    }
+}

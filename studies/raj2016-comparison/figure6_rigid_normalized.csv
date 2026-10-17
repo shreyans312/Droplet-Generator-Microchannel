@@ -1,0 +1,7 @@
+series,rigid_diameter_um,flexible_diameter_um,flexible_over_rigid,size_reduction_percent,normalization_status
+paper_digitized,197.17,179.024,0.9079677435715373,9.203225642846268,within_series_rigid_baseline; no fitted multiplier
+paper_equation_13,197.04010541166292,184.65158155320506,0.9371268918448082,6.2873108155191755,within_series_rigid_baseline; no fitted multiplier
+cfd_axial,123.14936687933029,116.62646397331919,0.9470325908179239,5.296740918207609,within_series_rigid_baseline; no fitted multiplier
+cfd_transverse,122.04,118.04,0.9672238610291708,3.2776138970829205,within_series_rigid_baseline; no fitted multiplier
+cfd_maximum_feret,125.05381416808491,119.04629992080663,0.9519605676384763,4.803943236152374,within_series_rigid_baseline; no fitted multiplier
+cfd_area_equivalent,123.83904080403403,117.96318653063916,0.9525524888173758,4.744751118262425,within_series_rigid_baseline; no fitted multiplier

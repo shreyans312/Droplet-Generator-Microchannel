@@ -1,0 +1,9 @@
+case,observable,screening_mean_um,medium_mean_um,fine_mean_um,screening_to_medium_change_percent,medium_to_fine_change_percent,trend,equal_droplet_counts_across_meshes,apparent_order_if_admissible
+rigid,axial_diameter_um,126.5,124.33333333333334,nan,-1.7127799736495313,nan,insufficient_data,False,nan
+rigid,transverse_diameter_um,123.0,124.00000000000001,nan,0.8130081300813123,nan,insufficient_data,False,nan
+rigid,maximum_feret_um,125.5886162306595,126.2768367932135,nan,0.547995975439369,nan,insufficient_data,False,nan
+rigid,area_equivalent_diameter_um,123.20594905101129,125.04850089387803,nan,1.4955055799325596,nan,insufficient_data,False,nan
+flexible,axial_diameter_um,158.5533698768221,118.31892709555554,233.90046876817016,-25.375961931634844,97.68643488397238,non_monotonic,False,nan
+flexible,transverse_diameter_um,162.0,119.32780547798802,200.0,-26.340860816056775,67.60552932224442,non_monotonic,False,nan
+flexible,maximum_feret_um,163.08805127242883,120.59762374843098,233.52087701102872,-26.053672965299054,93.6363833321939,non_monotonic,False,nan
+flexible,area_equivalent_diameter_um,160.9695207033786,119.4868550235073,218.51435304364958,-25.770509534107486,82.87731566845578,non_monotonic,False,nan

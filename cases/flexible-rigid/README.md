@@ -1,46 +1,42 @@
-# Flexible and rigid microchannel cases
+# Rigid and spatially deformed cases
 
-Two OpenFOAM cases are provided:
+Both cases use a 100 um junction, a 200 um widened measurement region, and the
+same inlet conditions:
 
-- `rigid`: 100 um channel height
-- `flexible`: 93.5 um effective channel height
+| Quantity | Value |
+|---|---:|
+| Continuous flow rate | 2.34213 uL/min |
+| Dispersed flow rate | 1.17107 uL/min |
+| Continuous viscosity | 0.0287 Pa s |
+| Dispersed viscosity | 0.000914 Pa s |
+| Interfacial tension | 0.003501 N/m |
+| Contact angle | 147 degrees |
 
-Shared operating conditions:
+The rigid case uses `Kp = 0`. The flexible case uses `Kp = 1.695`, giving an
+analytical average junction deflection of 9.26 um and maximum deflection of
+13.89 um. The deformation varies axially and parabolically across the channel.
+It is static one-way geometry, not coupled FSI.
 
-- channel width: 100 um
-- continuous-phase viscosity: 0.0287 Pa s
-- continuous-phase density: 857 kg/m3
-- dispersed-phase viscosity: 0.000914 Pa s
-- dispersed-phase density: 994 kg/m3
-- interfacial tension: 0.003501 N/m
-- contact angle: 96.91 degrees
-- continuous-phase flow rate: 2.34213 uL/min
-- dispersed-phase flow rate: 1.17107 uL/min
-
-Run both cases:
-
-```bash
-./Allrun
-```
-
-Check only the input files and meshes:
+Run:
 
 ```bash
-./Allrun --mesh-only
+./Allrun --parallel --mesh screening
 ```
 
-Results are written to `validation_results.csv`.
-
-The complete calculation method and limitations are documented in
-`VALIDATION.md`.
-
-From the repository root, open the results with:
+Check only:
 
 ```bash
-paraFoam -case cases/flexible-rigid/rigid
-paraFoam -case cases/flexible-rigid/flexible
+./Allrun --mesh-only --mesh medium
 ```
 
-The current simulation diameters are 134.15 um for the rigid case and
-147.57 um for the flexible case. Their differences from the reference values
-are -31.92% and -20.08%, respectively.
+`mesh_generator.py` writes each `blockMeshDict` and `geometry.json`.
+`measure.py` reconstructs VOF interfaces, generates calibrated top-view
+silhouettes, and tracks their fixed-line crossings. It requires Ubuntu's VTK
+bindings and is run with `/usr/bin/python3`. `Allrun` handles this automatically
+and first checks the estimator against synthetic circle and ellipse surfaces.
+
+Individual measurements are stored in `droplet_measurements.csv`. The summary
+is in `validation_results.csv` and [`validation_plot.svg`](validation_plot.svg).
+The [`rigid`](rigid_measurement_overlay.svg) and
+[`flexible`](flexible_measurement_overlay.svg) overlays make segmentation
+visually auditable. No empirical scaling is applied.

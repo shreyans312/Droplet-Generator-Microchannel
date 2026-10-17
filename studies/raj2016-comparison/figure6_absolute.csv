@@ -1,0 +1,13 @@
+case,series,observable,kp,diameter_um,uncertainty_type,uncertainty_um,source
+rigid,paper_digitized,paper_droplet_size,0.0,197.17,experimental_standard_deviation,1.965,Raj et al. Figure 6b vector extraction
+rigid,paper_equation_13,paper_droplet_size_correlation,0.0,197.04010541166292,not_published,,Raj et al. Equation 13; R2=0.97
+rigid,cfd_axial,axial,0.0,123.14936687933029,lag1_adjusted_95_percent_sampling_interval,0.12605490490359728,current uncalibrated interface-based CFD estimator
+rigid,cfd_transverse,transverse,0.0,122.04,lag1_adjusted_95_percent_sampling_interval,0.08040800000000559,current uncalibrated interface-based CFD estimator
+rigid,cfd_maximum_feret,maximum_feret,0.0,125.05381416808491,lag1_adjusted_95_percent_sampling_interval,0.099849557795892,current uncalibrated interface-based CFD estimator
+rigid,cfd_area_equivalent,area_equivalent,0.0,123.83904080403403,lag1_adjusted_95_percent_sampling_interval,0.09396922478755698,current uncalibrated interface-based CFD estimator
+flexible,paper_digitized,paper_droplet_size,1.695,179.024,experimental_standard_deviation,1.788,Raj et al. Figure 6b vector extraction
+flexible,paper_equation_13,paper_droplet_size_correlation,1.695,184.65158155320506,not_published,,Raj et al. Equation 13; R2=0.97
+flexible,cfd_axial,axial,1.695,116.62646397331919,lag1_adjusted_95_percent_sampling_interval,0.14155362728980947,current uncalibrated interface-based CFD estimator
+flexible,cfd_transverse,transverse,1.695,118.04,lag1_adjusted_95_percent_sampling_interval,0.08040800000000559,current uncalibrated interface-based CFD estimator
+flexible,cfd_maximum_feret,maximum_feret,1.695,119.04629992080663,lag1_adjusted_95_percent_sampling_interval,0.125060949229308,current uncalibrated interface-based CFD estimator
+flexible,cfd_area_equivalent,area_equivalent,1.695,117.96318653063916,lag1_adjusted_95_percent_sampling_interval,0.1141868445094758,current uncalibrated interface-based CFD estimator

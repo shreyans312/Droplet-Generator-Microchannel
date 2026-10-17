@@ -1,0 +1,10 @@
+{
+  "scale_factor": 1.6000090816929295,
+  "fit": "Raj Equation 13 rigid point, Kp=0, divided by fine_10us rigid CFD axial mean",
+  "holdout": "flexible point at Kp=1.695",
+  "holdout_error_vs_equation_13_percent": 1.0570285688435956,
+  "calibrated_cfd_size_reduction_percent": 5.296740918207609,
+  "equation_13_size_reduction_percent": 6.2873108155191755,
+  "digitized_size_reduction_percent": 9.203225642846268,
+  "trend_difference_vs_equation_13_percentage_points": -0.9905698973115662
+}
