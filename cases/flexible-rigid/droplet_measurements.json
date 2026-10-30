@@ -1,0 +1,45 @@
+{
+  "alpha_thresholds": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "crossing_counts": {
+    "rigid": {
+      "0.25": 12,
+      "0.5": 12,
+      "0.75": 12
+    },
+    "flexible": {
+      "0.25": 13,
+      "0.5": 13,
+      "0.75": 13
+    }
+  },
+  "time_coverage": {
+    "rigid": {
+      "first_output_time_s": 0.005,
+      "last_output_time_s": 0.8,
+      "requested_end_time_s": null,
+      "reached_requested_end_time": null
+    },
+    "flexible": {
+      "first_output_time_s": 0.005,
+      "last_output_time_s": 0.8,
+      "requested_end_time_s": null,
+      "reached_requested_end_time": null
+    }
+  },
+  "measurement_x_um": 1200.0,
+  "window_um": [
+    700.0,
+    1900.0,
+    -120.0,
+    120.0
+  ],
+  "volume_definition": {
+    "full_vof_slab_volume_nl": "sum(alpha.water * cell_volume) over all cells between adjacent projected-droplet centroid midgaps",
+    "vof_phase_volume_nl": "sum(alpha.water * cell_volume) in connected cells with alpha.water >= alpha_threshold; diagnostic core only",
+    "slab_separated": "both bin-edge cross sections peak below alpha.water=0.1 and droplet is wholly inside the view"
+  }
+}

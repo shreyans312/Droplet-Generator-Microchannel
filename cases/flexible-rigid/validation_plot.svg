@@ -33,12 +33,12 @@
 <text x="24" y="240.0" font-size="17" text-anchor="middle" transform="rotate(-90 24 240.0)">Diameter (um)</text>
 <circle cx="270" cy="121.2" r="7" fill="#2563eb"/>
 <text x="270" y="453" font-size="16" text-anchor="middle">rigid</text>
-<path d="M 262 222.0 L 278 238.0 M 262 238.0 L 278 222.0" stroke="#dc2626" stroke-width="4"/>
-<rect x="264" y="229.1" width="12" height="12" fill="#d97706"/>
+<path d="M 262 226.1 L 278 242.1 M 262 242.1 L 278 226.1" stroke="#dc2626" stroke-width="4"/>
+<rect x="264" y="227.0" width="12" height="12" fill="#d97706"/>
 <circle cx="550" cy="140.3" r="7" fill="#2563eb"/>
 <text x="550" y="453" font-size="16" text-anchor="middle">flexible</text>
-<path d="M 542 172.6 L 558 188.6 M 542 188.6 L 558 172.6" stroke="#dc2626" stroke-width="4"/>
-<rect x="544" y="170.8" width="12" height="12" fill="#d97706"/>
+<path d="M 542 236.2 L 558 252.2 M 542 252.2 L 558 236.2" stroke="#dc2626" stroke-width="4"/>
+<rect x="544" y="236.2" width="12" height="12" fill="#d97706"/>
 <circle cx="155" cy="468" r="6" fill="#2563eb"/>
 <text x="167" y="473" font-size="14">paper</text>
 <path d="M 270 462 L 282 474 M 270 474 L 282 462" stroke="#dc2626" stroke-width="3"/>

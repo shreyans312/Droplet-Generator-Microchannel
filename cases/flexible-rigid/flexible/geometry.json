@@ -1,7 +1,7 @@
 {
   "kp": 1.695,
-  "mesh_level": "screening",
-  "estimated_cells": 2816,
+  "mesh_level": "fine",
+  "estimated_cells": 76032,
   "junction_width_m": 9.999999999999999e-05,
   "undeformed_height_m": 9.999999999999999e-05,
   "region_b_width_m": 0.00019999999999999998,

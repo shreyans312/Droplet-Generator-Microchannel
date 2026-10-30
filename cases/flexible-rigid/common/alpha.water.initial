@@ -20,6 +20,9 @@ boundaryField
     {
         type contactAngle;
         theta0 147;
+        thetaA 160;
+        thetaR 115;
+        uTheta 0.01;
         limit gradient;
         value uniform 0;
     }
@@ -27,6 +30,9 @@ boundaryField
     {
         type contactAngle;
         theta0 147;
+        thetaA 160;
+        thetaR 115;
+        uTheta 0.01;
         limit gradient;
         value uniform 0;
     }
@@ -34,6 +40,9 @@ boundaryField
     {
         type contactAngle;
         theta0 147;
+        thetaA 160;
+        thetaR 115;
+        uTheta 0.01;
         limit gradient;
         value uniform 0;
     }
